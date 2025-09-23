@@ -1,0 +1,1 @@
+https://github.com/jubranshami3-rgb/livedrop-Gebran/blob/main/docs/ai-first/ai-capability-map.md
