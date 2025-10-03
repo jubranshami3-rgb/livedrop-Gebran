@@ -1,0 +1,37 @@
+RAG System Evaluation
+Retrieval Quality Tests (10 tests)
+Test ID	Question	Expected Documents	Pass Criteria
+R01	How do I create a seller account on Shoplite?	Document 1: User Registration Process + Document 8: Seller Account Setup	Retrieved docs contain both seller registration and account setup information
+R02	What payment methods does Shoplite accept and are they secure?	Document 4: Payment Methods and Security + Document 14: Security Policies	Retrieved docs cover payment options and security measures
+R03	How do I track my order and what are the delivery options?	Document 5: Order Tracking and Delivery + Document 16: Shipping Options	Retrieved docs include tracking procedures and shipping methods
+R04	What is the return policy for electronics?	Document 6: Return and Refund Policies	Retrieved doc specifically mentions electronic returns
+R05	How do sellers manage inventory and what analytics are available?	Document 9: Inventory Management + Document 8: Seller Account Setup	Retrieved docs cover both inventory tools and seller dashboard
+R06	What commission rates do sellers pay?	Document 10: Commission and Fee Structure	Retrieved doc contains specific commission percentages
+R07	How does the mobile app differ from the website?	Document 12: Mobile App Features + Document 2: Product Search Features	Retrieved docs compare app and website functionality
+R08	What are the benefits of Shoplite's subscription service?	Document 18: Subscription and Auto-Replenishment	Retrieved doc details subscription discounts and features
+R09	How do international returns work?	Document 6: Return Policies + Document 16: Shipping Options	Retrieved docs cover international return procedures
+R10	What support options are available for return issues?	Document 11: Customer Support + Document 6: Return Policies	Retrieved docs include support channels and return help
+Response Quality Tests (15 tests)
+Test ID	Question	Required Keywords	Forbidden Terms	Expected Behavior
+Q01	How do I create a seller account?	["business verification", "2-3 days", "tax ID"]	["instant approval", "personal account"]	Direct answer with citation of Documents 1 & 8
+Q02	What is the return policy and how do I track orders?	["30-day return", "order tracking", "return authorization"]	["no returns", "immediate refund"]	Multi-source synthesis from Documents 5 & 6
+Q03	What payment methods are secure?	["credit cards", "PayPal", "encryption", "PCI DSS"]	["unsecured", "no encryption"]	Technical accuracy with security details from Document 4
+Q04	How long do refunds take to process?	["3-5 business days", "payment method", "inspection"]	["instant", "same day"]	Specific timeframe with conditions from Document 6
+Q05	What are seller commission rates?	["commission", "category", "percentage", "fees"]	["no fees", "free"]	Category-specific rates from Document 10
+Q06	How do I use wishlists and share them?	["wishlists", "sharing", "collaborative", "privacy"]	["single list", "no sharing"]	Feature explanation with sharing options from Document 17
+Q07	What mobile app features are exclusive?	["barcode scanning", "AR visualization", "push notifications"]	["same features", "no benefits"]	App-specific features from Document 12
+Q08	How does subscription service work?	["15% discount", "free shipping", "flexible scheduling"]	["no discount", "fixed schedule"]	Benefit details with management options from Document 18
+Q09	What inventory tools do sellers have?	["low stock alerts", "CSV upload", "analytics", "dashboard"]	["manual only", "no alerts"]	Tool description with analytics from Document 9
+Q10	How do gift cards work?	["no expiration", "e-gifts", "balance checking", "corporate programs"]	["expires", "physical only"]	Complete gift card details from Document 19
+Q11	What student discounts are available?	["15% discount", ".edu email", "verification"]	["no discount", "all students"]	Specific discount with requirements from Document 15
+Q12	How do I contact customer support?	["24/7 support", "live chat", "email", "phone"]	["limited hours", "email only"]	Support channels with response times from Document 11
+Q13	What are the shipping options and costs?	["free shipping", "$35 minimum", "carriers", "delivery estimates"]	["always free", "one carrier"]	Shipping details with costs from Document 16
+Q14	How does product quality assurance work?	["quality standards", "authenticity guarantee", "seller compliance"]	["no checks", "unverified"]	Quality processes from Document 20
+Q15	What API access is available for developers?	["REST API", "OAuth 2.0", "rate limits", "webhooks"]	["no API", "unlimited access"]	Technical specifications from Document 13
+Edge Case Tests (5 tests)
+Test ID	Scenario	Expected Response Type
+E01	"How do I return a product I bought from Amazon?"	Refusal with explanation that Shoplite only handles its own returns
+E02	"My order is wrong"	Clarification request asking which aspect is wrong (item, size, quantity)
+E03	"Do you ship to Mars?"	Polite refusal explaining delivery is limited to Earth with suggested alternative
+E04	"I want to complain about everything"	Clarification request asking for specific issues to address
+E05	"What's your policy on [competitor feature not in docs]?"	Refusal stating information not available in Shoplite documentation
