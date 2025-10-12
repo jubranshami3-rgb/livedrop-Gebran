@@ -1,0 +1,122 @@
+[
+  {
+    "qid": "Q01",
+    "category": "Returns",
+    "question": "What is your return policy?",
+    "answer": "We accept returns within 30 days of purchase. Items must be unused and in original packaging. Electronics must be factory reset."
+  },
+  {
+    "qid": "Q02",
+    "category": "Returns",
+    "question": "How long do I have to return an item?",
+    "answer": "You have 30 days from the date of delivery to initiate a return."
+  },
+  {
+    "qid": "Q03",
+    "category": "Shipping",
+    "question": "What shipping options do you offer?",
+    "answer": "We offer standard (5-7 business days) for $4.99, expedited (2-3 business days) for $9.99, and overnight shipping for $19.99."
+  },
+  {
+    "qid": "Q04",
+    "category": "Shipping",
+    "question": "Do you ship internationally?",
+    "answer": "Currently we only ship within the United States. We plan to expand internationally next year."
+  },
+  {
+    "qid": "Q05",
+    "category": "Payment",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, MasterCard, American Express, Discover), PayPal, and Apple Pay."
+  },
+  {
+    "qid": "Q06",
+    "category": "Payment",
+    "question": "Is my payment information secure?",
+    "answer": "Yes, we use industry-standard SSL encryption and never store your full payment details on our servers."
+  },
+  {
+    "qid": "Q07",
+    "category": "Products",
+    "question": "Do you offer warranty on electronics?",
+    "answer": "All electronics come with a 1-year manufacturer's warranty. Extended warranties are available for purchase."
+  },
+  {
+    "qid": "Q08",
+    "category": "Products",
+    "question": "Are your products authentic?",
+    "answer": "Yes, we only sell 100% authentic products directly from manufacturers or authorized distributors."
+  },
+  {
+    "qid": "Q09",
+    "category": "Account",
+    "question": "How do I reset my password?",
+    "answer": "Click 'Forgot Password' on the login page and enter your email. You'll receive a link to reset your password."
+  },
+  {
+    "qid": "Q10",
+    "category": "Account",
+    "question": "Can I change my email address?",
+    "answer": "Yes, go to Account Settings > Personal Information to update your email address. You'll need to verify the new email."
+  },
+  {
+    "qid": "Q11",
+    "category": "Order",
+    "question": "How can I track my order?",
+    "answer": "Use the 'Order Status' page with your order number, or check the shipping confirmation email for tracking details."
+  },
+  {
+    "qid": "Q12",
+    "category": "Order",
+    "question": "Can I cancel my order?",
+    "answer": "Orders can be cancelled within 1 hour of placement if they haven't entered the packing process. Contact support immediately."
+  },
+  {
+    "qid": "Q13",
+    "category": "Order",
+    "question": "My order is missing items",
+    "answer": "Please contact our support team with your order number and details of missing items. We'll resolve this within 24 hours."
+  },
+  {
+    "qid": "Q14",
+    "category": "Pricing",
+    "question": "Do you offer price matching?",
+    "answer": "We offer price matching within 7 days of purchase if you find the same item at a lower price from an authorized retailer."
+  },
+  {
+    "qid": "Q15",
+    "category": "Pricing",
+    "question": "Are there any hidden fees?",
+    "answer": "No hidden fees. The price you see is what you pay, plus applicable taxes and your chosen shipping method."
+  },
+  {
+    "qid": "Q16",
+    "category": "Support",
+    "question": "How do I contact customer service?",
+    "answer": "Call 1-800-STORE-HELP, email support@storefront.com, or use this chat support during business hours (9AM-6PM EST)."
+  },
+  {
+    "qid": "Q17",
+    "category": "Support",
+    "question": "What are your support hours?",
+    "answer": "Phone support: Mon-Fri 9AM-6PM EST. Email support: 24/7 with response within 4 hours during business days."
+  },
+  {
+    "qid": "Q18",
+    "category": "Privacy",
+    "question": "How is my data protected?",
+    "answer": "We comply with GDPR and CCPA regulations. Your data is encrypted and we never sell personal information to third parties."
+  },
+  {
+    "qid": "Q19",
+    "category": "General",
+    "question": "Do you have physical stores?",
+    "answer": "We are online-only but partner with local retailers for pickup. Check our store locator for participating locations."
+  },
+  {
+    "qid": "Q20",
+    "category": "General",
+    "question": "What makes you different from competitors?",
+    "answer": "We focus on curated quality products, exceptional customer service, and fast, reliable shipping with real-time order tracking."
+  }
+]
